@@ -1,0 +1,52 @@
+*,*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+:root{
+   
+    --fs-sm:12px;
+    --fs-md:14px;
+    --fs-lg:16px;
+    --fs-xl:20px;
+    --fs-xxl:48px;
+  
+
+}
+
+
+@media (max-width:992px) {
+    :root { 
+        
+    --fs-xl:19px;
+    --fs-xxl:45px;
+  
+      
+        
+    }
+}
+
+
+@media (max-width:768px) {
+    :root {
+       
+        --fs-xl:18px;
+        --fs-xxl:42px;
+      
+    }
+
+}
+
+@media (max-width:576px) {
+    :root {
+      
+        --fs-xl:17px;
+        --fs-xxl:38px;
+       
+    }
+
+}
